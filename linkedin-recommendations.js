@@ -28509,6 +28509,7 @@
                 h = function(e, t) {
                     return Kr(new URL(e || `https://dash.elfsight.com/apps/${t}/pricing`), "remove-link", t)
                 }(i, t);
+            a = 0; // HAHAHAHAHAHAHA
             return a ? (0, c.jsxs)("a", {
                 href: f.toString(),
                 target: "_blank",
