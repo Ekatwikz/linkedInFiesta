@@ -38422,7 +38422,7 @@
         const wg = a.default.div.withConfig({
             displayName: "Header__HeaderContainer",
             componentId: "sc-je9j3i-0"
-        })(["display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;margin-bottom:", "px;"], (e => {
+        })(["display:none;align-items:center;justify-content:center;flex-direction:column;gap:12px;margin-bottom:", "px;"], (e => {
             let {
                 _marginBottom: t
             } = e;
