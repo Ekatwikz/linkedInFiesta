@@ -28339,7 +28339,7 @@
             Vr = a.default.div.withConfig({
                 displayName: "WidgetBackground__Container",
                 componentId: "sc-1ho7q3r-0"
-            })(["position:relative;overflow:hidden;border:0 solid transparent;box-sizing:border-box;"]),
+            })(["position:relative;border:0 solid transparent;box-sizing:border-box;"]),
             Fr = a.default.div.withConfig({
                 displayName: "WidgetBackground__ContentContainer",
                 componentId: "sc-1ho7q3r-1"
@@ -37668,7 +37668,7 @@
                 })
             })),
             Cm = a.default.div.withConfig({
-                displayName: "ReviewContainer__Inner",
+                displayName: "card shadow-lg compact ReviewContainer__Inner",
                 componentId: "sc-1gax7ld-0"
             })(["display:flex;flex-direction:column;overflow:hidden;"]);
 
@@ -37700,7 +37700,7 @@
             })
         }
         const Om = a.default.div.withConfig({
-            displayName: "card bg-base-100 ReviewBackground__Container",
+            displayName: "bg-base-100 ReviewBackground__Container",
             componentId: "sc-1djobrq-0"
         })(["position:relative;transition:0.1s ease background-color;box-sizing:border-box;flex-grow:1;padding:", ";background-color:", ";border:", ";", ""], (e => {
             let {
