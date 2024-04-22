@@ -33360,9 +33360,9 @@
                 return n ? `\n      color: transparent !important;    \n      -webkit-background-clip: text;\n      background-clip: text;\n      background-color: ${t};\n      background-image: ${n};\n    ` : `\n      color: ${t} !important;\n    `
             })),
             mc = a.default.span.withConfig({
-                displayName: "ReviewAuthorName__AuthorName",
+                displayName: "font-semibold text-base-content text-opacity-70 ReviewAuthorName__AuthorName",
                 componentId: "sc-1le9t1d-1"
-            })(["font-size:14px;line-height:18px;font-weight:700;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:100%;"]),
+            })(["font-size:14px;line-height:18px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:100%;"]),
             gc = (0, a.default)((function(e) {
                 let {
                     badgeColor: t,
