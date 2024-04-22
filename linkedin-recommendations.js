@@ -241,7 +241,7 @@
                         })
                     })),
                     f = s.default.div.withConfig({
-                        displayName: "SimpleShortener__Inner",
+                        displayName: "text-base-content text-opacity-60 SimpleShortener__Inner",
                         componentId: "sc-19xjxqz-1"
                     })([""]);
 
