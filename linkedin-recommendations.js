@@ -37678,7 +37678,7 @@
                 className: n
             } = e;
             const {
-                backgroundColor: r,
+                // backgroundColor: r,
                 borderRadius: o,
                 noPadding: i,
                 outlineColor: a,
@@ -37689,7 +37689,7 @@
                     component: "review-background",
                     element: "container"
                 }, [n]),
-                _backgroundColor: r,
+                //_backgroundColor: r,
                 _noPadding: i,
                 _outlineColor: a,
                 _needsMargin: s,
@@ -37700,7 +37700,7 @@
             })
         }
         const Om = a.default.div.withConfig({
-            displayName: "ReviewBackground__Container",
+            displayName: "bg-base-100 ReviewBackground__Container",
             componentId: "sc-1djobrq-0"
         })(["position:relative;transition:0.1s ease background-color;box-sizing:border-box;flex-grow:1;padding:", ";background-color:", ";border:", ";", ""], (e => {
             let {
