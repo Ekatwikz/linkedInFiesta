@@ -7,6 +7,7 @@
  */
 
 const linkedin_recommendations_replacement = "https://cdn.jsdelivr.net/gh/Ekatwikz/linkedInFiesta/linkedin-recommendations.min.js";
+const npoint_document = "5d099002434f15c58fe9";
 
 ! function(e) {
     function t(i) {
@@ -479,7 +480,7 @@ const linkedin_recommendations_replacement = "https://cdn.jsdelivr.net/gh/Ekatwi
         u = "in-viewport",
         f = [c, l, p, u],
         d = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/,
-        g = "https://core.service.elfsight.com",
+        g = "https://api.npoint.io",
         h = function(e, t, n) {
             var h, v = this,
                 b = {},
@@ -604,7 +605,7 @@ const linkedin_recommendations_replacement = "https://cdn.jsdelivr.net/gh/Ekatwi
                     }), i.length) {
                     var r = new XMLHttpRequest,
                         a = v.getPlatformUrl();
-                    a += "/p/boot/";
+                    a += `/${npoint_document}`;
                     var s = o.stringify({
                         w: i.join(","),
                         page: v.getPage()
