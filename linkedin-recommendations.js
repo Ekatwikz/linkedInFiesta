@@ -32738,7 +32738,7 @@
                 componentId: "sc-t7690a-1"
             })(["font-size:inherit;color:inherit;text-align:inherit;font-weight:700;"]),
             Hu = a.default.div.withConfig({
-                displayName: "ReviewText__Control",
+                displayName: "text-base-content text-opacity-60 font-medium ReviewText__Control",
                 componentId: "sc-t7690a-2"
             })(["display:inline-block;cursor:pointer;font-size:", "px;color:", ";&:hover,&:focus{text-decoration:underline;}"], (e => {
                 let {
