@@ -6,7 +6,6 @@
  * 
  */
 
-const linkedin_recommendations_replacement = "https://cdn.jsdelivr.net/gh/Ekatwikz/linkedInFiesta/linkedin-recommendations.min.js";
 const npoint_document = "5d099002434f15c58fe9";
 
 ! function(e) {
@@ -634,7 +633,6 @@ const npoint_document = "5d099002434f15c58fe9";
                     return y.indexOf(e) === -1
                 }).forEach(function(t) {
                     var n = e.document.createElement("script");
-                    t = t.startsWith("https://static.elfsight.com/apps/linkedin-recommendations") ? linkedin_recommendations_replacement : t;
                     n.src = t, n.setAttribute("defer", "defer"), n.setAttribute("charset", "UTF-8"), e.document.head.appendChild(n), y.push(t)
                 })
             }, v.observe = function() {
