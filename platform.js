@@ -610,7 +610,7 @@ const npoint_document = "5d099002434f15c58fe9";
                         w: i.join(","),
                         page: v.getPage()
                     });
-                    r.open("get", a + "?" + s), r.withCredentials = !0, r.onload = function() {
+                    r.open("get", a + "?" + s), r.withCredentials = !1, r.onload = function() {
                         var t = JSON.parse(r.response);
                         t.status || v.logError("Boot failed because " + t.reason, t.data), b = Object.assign({}, b, t.data.widgets), v.loadAssets(t.data.assets), m.forEach(v.initWidget.bind(v)), x = x.filter(function(e) {
                             return !i.includes(e)
