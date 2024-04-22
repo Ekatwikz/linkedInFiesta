@@ -37342,7 +37342,7 @@
         }
         nm.displayName = "DateTime", nm.propTypes = Pc, nm.defaultProps = Dc;
         const om = a.default.span.withConfig({
-                displayName: "ReviewInfo__Caption",
+                displayName: "text-base-content text-opacity-60 ReviewInfo__Caption",
                 componentId: "sc-1vrf9nk-0"
             })([""]),
             im = a.default.div.withConfig({
