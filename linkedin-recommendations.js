@@ -37679,7 +37679,7 @@
             } = e;
             const {
                 // backgroundColor: r,
-                borderRadius: o,
+                // borderRadius: o,
                 noPadding: i,
                 outlineColor: a,
                 needsMargin: s
@@ -37693,14 +37693,14 @@
                 _noPadding: i,
                 _outlineColor: a,
                 _needsMargin: s,
-                style: {
-                    borderRadius: `${o}px`
-                },
+                // style: {
+                //     borderRadius: `${o}px`
+                // },
                 children: t
             })
         }
         const Om = a.default.div.withConfig({
-            displayName: "bg-base-100 ReviewBackground__Container",
+            displayName: "card bg-base-100 ReviewBackground__Container",
             componentId: "sc-1djobrq-0"
         })(["position:relative;transition:0.1s ease background-color;box-sizing:border-box;flex-grow:1;padding:", ";background-color:", ";border:", ";", ""], (e => {
             let {
