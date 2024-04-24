@@ -28555,7 +28555,7 @@
             so = a.default.div.withConfig({
                 displayName: "EmbedRoot__EmbedRootComponent",
                 componentId: "sc-1c4b4pg-0"
-            })(["max-width:", ";margin:0 auto;-webkit-font-smoothing:antialiased;&,*{box-sizing:border-box !important;outline:none !important;}"], (e => {
+            })(["max-width:", ";margin:0 auto;-webkit-font-smoothing:antialiased;&,*{box-sizing:border-box !important;}"], (e => {
                 let {
                     _width: t
                 } = e;
